@@ -1,0 +1,42 @@
+Atom:
+https://atom.io/
+
+Vagrant:
+https://www.vagrantup.com/intro/index.html
+
+
+
+Some good linux commands
+
+
+type -a
+test
+shuf     : shuffle lines
+fold -w1 : display output vertically
+head -c  : to get a char
+head -n  : to get lines
+date +%s%N
+$RANDOM - provides random numbers 1 - 32K
+sha256sum (or ls /usr/bin/*sum)
+
+hash -r : forget all remember locations
+basename : strips directory and displays just the filename
+dirname : strips the last component from the filename
+
+#Positional Parameters
+
+$0 : name of the script
+$# : how many arguments passed to a scripts
+$@ : when with "", it expands with "" e.g. "A" "B"
+$* : display arguments in this format "$1$2$2" (i.e as one string)
+!<any first character> : this will run the last command starting the character specified
+
+shift : shift positional parameters by 1 place
+
+true : always returns true
+sleep : delays execution for specified amount of time (sleep 1s, sleep 1m)
+
+# File Descriptor
+FD 0 - STDIN
+FD 1 - STDOUT
+FD 2 - STDERR
